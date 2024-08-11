@@ -119,8 +119,8 @@ h6 {
 #examples {
     display: flex;
     justify-content: space-between;
-    gap: 2em;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 #examples h3 {
