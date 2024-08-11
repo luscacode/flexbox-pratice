@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+html {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Sora;
+    margin: 4% 0 24% 0;
+}
+
+body {
+    width: 50%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30% 0 30% 0;
+}
+
+p {
+    color: rgb(66, 66, 66);
+}
+
+.info {
+    text-align: right;
+}
+
+.info h3,
+h4 {
+    margin: 0;
+}
+
+.info h3 {
+    font-weight: 300;
+}
+
+.info img {
+    height: 20px;
+}
+
+.info h4 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info a {
+    text-decoration: none;
+    color: #5a90d3;
+    transition: 0.3s;
+}
+
+.info a:hover {
+    text-decoration: none;
+    color: #0063dd;
+}
+
+.headerTitle {
+    font-weight: 900;
+    margin: auto;
+    color: #0063dd;
+}
+
+.headerDesc {
+    font-weight: 300;
+    color: rgb(66, 66, 66);
+    margin: 0;
+    font-size: 1rem;
+    width: 60%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5rem 0 0 0;
+}
+
+main p {
+    width: 60%;
+}
+
+main img {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.3s;
+}
+
+main img:hover {
+    transform: scale(1.03);
+}
+
+.emp {
+    padding: 3px;
+    border-radius: 4px;
+    color: #5a90d3;
+    transition: 0.3s;
+}
+
+.emp:hover {
+    transform: rotateZ(20deg);
+    color: #0063dd;
+}
+
+h6 {
+    font-size: 2rem;
+    margin: 2em 0 2em 0;
+    color: #0063dd;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #5a90d3;
+}
+
+#examples {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+#examples h3 {
+    margin: 1em 0 0 0;
+    color: #0063dd;
+}
+
+#examples p {
+    margin: 0.5em 0 1em 0;
+}
+
+.example {
+    display: flex;
+    border: #ccc solid 1px;
+    background-color: hsl(0, 0%, 93%);
+    width: 24em;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.box {
+    width: 5em;
+    height: 5em;
+    background-color: #5a90d3;
+    border-radius: 0.5em;
+    margin: 0.2em;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-color: #0063dd;
+    transform: scale(1.02);
+}
+
+#id2 .example {
+    display: flex;
+    flex-direction: column;
+    border: #ccc solid 1px;
+    background-color: hsl(0, 0%, 93%);
+    width: 24em;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+#id3 .example {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: #ccc solid 1px;
+    background-color: hsl(0, 0%, 93%);
+    width: 24em;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+#id4 .example {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: #ccc solid 1px;
+    background-color: hsl(0, 0%, 93%);
+    width: 24em;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+#id5 .example {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: #ccc solid 1px;
+    background-color: hsl(0, 0%, 93%);
+    width: 24em;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+#id6 .example {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: #ccc solid 1px;
+    background-color: hsl(0, 0%, 93%);
+    width: 24em;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+#more {
+    display: flex;
+    flex-direction: column;
+}
+
+#more .end {
+    display: flex;
+    justify-content: space-between;
+}
+
+#more .end .left {
+    width: 50%;
+}
+
+#more .end .right {
+    width: 30%;
+    text-align: right;
+}
+
+.media {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.media svg {
+    width: 4em;
+    height: 4cap;
+    margin: 4em 0;
+    padding: 0;
+    fill: #5a90d3;
+    transition: 0.3s;
+}
+
+.media svg:hover {
+    fill: #0063dd;
+}
+
+.media .git {
+    height: 38px;
+    transform: translateY(-2px);
+}
+
+.media .gram {
+    transform: translateY(6px);
+    transform: translateX(-20px);
+}
+
+footer {
+    padding: 2.5em 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5a90d3;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #0063dd;
+}
